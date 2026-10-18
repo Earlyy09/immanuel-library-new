@@ -1,5 +1,6 @@
 <header>
     <nav class="navbar">
+<<<<<<< HEAD
         <a href="/index.php" class="brand">
             <span class="logo-badge">PD</span>
             Perpustakaan Digital
@@ -15,3 +16,20 @@
         </div>
     </nav>
 </header>
+=======
+      <a href="/index.php" class="brand">
+        <span class="logo-badge">PD</span>
+        Perpustakaan Digital
+      </a>
+      <div class="nav-links">
+        <a href="index.php" class="active">Beranda</a>
+        <a href="pages/books/index.php">Katalog Buku</a>
+        <a href="pages/authors/index.php">Penulis</a>
+      </div>
+      <div class="nav-actions">
+        <a href="pages/auth/login.php" class="btn btn-outline btn-sm">Masuk</a>
+        <a href="pages/auth/register.php" class="btn btn-primary btn-sm">Daftar</a>
+      </div>
+    </nav>
+  </header>
+>>>>>>> 03958c65dff71fda706d1339697d2ad04ebcf54f

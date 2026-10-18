@@ -1,8 +1,17 @@
 <?php
+<<<<<<< HEAD
 $title = "Beranda - Immanuel Library";
 
 ?>
 
+=======
+$title = "Beranda - Immanuel Library"
+
+?>
+
+
+
+>>>>>>> 03958c65dff71fda706d1339697d2ad04ebcf54f
 <!DOCTYPE html>
 <html lang="id">
 
@@ -10,14 +19,23 @@ $title = "Beranda - Immanuel Library";
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
+<<<<<<< HEAD
     <?= $title ?>
+=======
+    <?php echo $title ?>
+>>>>>>> 03958c65dff71fda706d1339697d2ad04ebcf54f
   </title>
   <link rel="stylesheet" href="styles/index.css">
 </head>
 
 <body>
+<<<<<<< HEAD
   <?php require_once __DIR__ . "/components/landing/header.php" ?>
 
+=======
+  
+  <?php require_once 'components/landing/header.php'; ?>
+>>>>>>> 03958c65dff71fda706d1339697d2ad04ebcf54f
   <!-- ============ HERO ============ -->
   <section class="hero">
     <div class="hero-text">
@@ -103,7 +121,11 @@ $title = "Beranda - Immanuel Library";
       </div>
     </div>
   </section>
+<<<<<<< HEAD
   <?php require_once __DIR__ . "/components/landing/footer.php" ?>
+=======
+  <?php require_once 'components/landing/footer.php'; ?>
+>>>>>>> 03958c65dff71fda706d1339697d2ad04ebcf54f
 </body>
 
 </html>
