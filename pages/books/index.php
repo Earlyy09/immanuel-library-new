@@ -1,5 +1,7 @@
 <?php
 require_once __DIR__ . "/../../repositories/book-repository.php";
+require_once __DIR__ . "/../../config/database.php";
+
 
 $books = getBooks();
 
