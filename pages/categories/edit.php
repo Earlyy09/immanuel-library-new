@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 require_once __DIR__ . "/../../repositories/category-repository.php";
 
@@ -8,8 +7,6 @@ $pageTitle = "Edit Kategori";
 $pageSubtitle = "Perbarui data kategori";
 ?>
 
-=======
->>>>>>> 03958c65dff71fda706d1339697d2ad04ebcf54f
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -19,7 +16,6 @@ $pageSubtitle = "Perbarui data kategori";
   <link rel="stylesheet" href="../../styles/categories/edit.css">
 </head>
 <body>
-<<<<<<< HEAD
   <div class="app-shell">
   <?php require_once __DIR__ . "/../../components/admin/sidebar.php" ?>
 
@@ -29,57 +25,20 @@ $pageSubtitle = "Perbarui data kategori";
       <div class="app-content">
         <form method="POST" action="../../actions/categories/update.php">
           <input type="hidden" name="id" value="<?= $category['id'] ?>">
-=======
-  <?php
-  require '../../repositories/category-repository.php';
-  $category = getCategory();
-
-  if (!$category) {
-      header('Location: index.php');
-      exit;
-  }
-  ?>
-  <div class="app-shell">
-    <?php require_once "../../components/admin/sidebar.php"; ?>
-
-    <main class="app-main">
-      <?php
-      $pageTitle = 'Edit Kategori';
-      $pageSubtitle = 'Perbarui informasi kategori';
-      
-      require_once '../../components/admin/topbar.php';
-      ?>
-
-      <div class="app-content">
-        <form method="POST" action="../../actions/categories/update.php">
-          <input type="hidden" name="id" value="<?= htmlspecialchars($category['id'] ?? '') ?>">
->>>>>>> 03958c65dff71fda706d1339697d2ad04ebcf54f
           <div class="form-card">
             <div class="form-section-title">Data Kategori</div>
             <div class="form-group">
               <label for="name">Nama Kategori</label>
-<<<<<<< HEAD
               <input type="text" id="name" name="name" value="<?= $category['name'] ?>">
             </div>
             <div class="form-group">
               <label for="description">Deskripsi</label>
               <textarea id="description" name="description" rows="3"><?= $category['description'] ?></textarea>
-=======
-              <input type="text" id="name" name="name" value="<?= htmlspecialchars($category['name'] ?? '') ?>">
-            </div>
-            <div class="form-group">
-              <label for="description">Deskripsi</label>
-              <textarea id="description" name="description" rows="3"><?= htmlspecialchars($category['description'] ?? '') ?></textarea>
->>>>>>> 03958c65dff71fda706d1339697d2ad04ebcf54f
             </div>
 
             <div class="form-actions">
               <a href="index.php" class="btn btn-outline">Batal</a>
-<<<<<<< HEAD
               <button type="submit" name="update" class="btn btn-primary">Simpan Perubahan</button>
-=======
-              <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
->>>>>>> 03958c65dff71fda706d1339697d2ad04ebcf54f
             </div>
           </div>
         </form>
@@ -87,8 +46,4 @@ $pageSubtitle = "Perbarui data kategori";
     </main>
   </div>
 </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> 03958c65dff71fda706d1339697d2ad04ebcf54f

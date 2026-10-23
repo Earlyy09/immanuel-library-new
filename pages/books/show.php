@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 require_once __DIR__ . "/../../repositories/book-repository.php";
 
@@ -8,8 +7,6 @@ $pageTitle = "Detail Buku";
 $pageSubtitle = "Informasi lengkap buku beserta kategori dan penulis";
 ?>
 
-=======
->>>>>>> 03958c65dff71fda706d1339697d2ad04ebcf54f
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -19,27 +16,11 @@ $pageSubtitle = "Informasi lengkap buku beserta kategori dan penulis";
   <link rel="stylesheet" href="../../styles/books/show.css">
 </head>
 <body>
-<<<<<<< HEAD
   <div class="app-shell">
   <?php require_once __DIR__ . "/../../components/admin/sidebar.php" ?>
 
     <main class="app-main">
     <?php require_once __DIR__ . "/../../components/admin/topbar.php" ?>
-=======
-  <?php
-  require '../../repositories/book-repository.php';
-  ?>
-  <div class="app-shell">
-    <?php require_once "../../components/admin/sidebar.php"; ?>
-
-    <main class="app-main">
-      <?php
-      $pageTitle = 'Detail Buku';
-      $pageSubtitle = 'Informasi lengkap buku';
-      
-      require_once '../../components/admin/topbar.php';
-      ?>
->>>>>>> 03958c65dff71fda706d1339697d2ad04ebcf54f
 
       <div class="app-content">
         <div class="detail-grid">
